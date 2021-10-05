@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #e4d9d9;
+}
+.wrapper {
+  height: 400px;
+  width: 350px;
+  margin: 10% auto;
+  background: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.text-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+  margin: 10px auto;
+}
+.text-area-wrapper {
+  text-align: center;
+}
+.icon {
+  position: relative;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  margin-top: -10%;
+}
+.login {
+  justify-content: center;
+  position: relative;
+}
